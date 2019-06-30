@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{cow:1b}"
+              "tag": "{entityevents_kill:1b,cow:1b}"
             }
           ]
         }

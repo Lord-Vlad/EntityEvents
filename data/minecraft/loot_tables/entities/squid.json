@@ -36,7 +36,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{squid:1b}"
+              "tag": "{entityevents_kill:1b,squid:1b}"
             }
           ]
         }
