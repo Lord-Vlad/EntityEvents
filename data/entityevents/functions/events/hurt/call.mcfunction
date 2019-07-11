@@ -1,4 +1,4 @@
-execute as @e[type=#entityevents:mob,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/general
+execute as @e[type=#entityevents:mobs,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/general
 execute as @e[type=cow,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/cow
 execute as @e[type=squid,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/squid
 execute as @e[type=bat,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/bat

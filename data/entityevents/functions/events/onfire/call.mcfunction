@@ -1,4 +1,4 @@
-execute as @e[type=#entityevents:mob,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/general
+execute as @e[type=#entityevents:mobs,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/general
 execute as @e[type=cow,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/cow
 execute as @e[type=squid,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/squid
 execute as @e[type=bat,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/bat
