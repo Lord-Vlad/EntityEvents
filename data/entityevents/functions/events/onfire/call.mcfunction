@@ -62,5 +62,4 @@ execute as @e[type=ender_dragon,scores={EEonFire=0..}] at @s run function #entit
 execute as @e[type=wither,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/wither
 execute as @e[type=giant,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/giant
 execute as @e[type=illusioner,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/illusioner
-execute as @e[type=killer_bunny,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/killer_bunny
 execute as @e[type=zombie_horse,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/zombie_horse

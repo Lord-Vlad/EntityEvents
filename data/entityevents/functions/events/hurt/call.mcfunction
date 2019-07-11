@@ -62,5 +62,4 @@ execute as @e[type=ender_dragon,nbt={HurtTime:10s}] at @s run function #entityev
 execute as @e[type=wither,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/wither
 execute as @e[type=giant,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/giant
 execute as @e[type=illusioner,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/illusioner
-execute as @e[type=killer_bunny,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/killer_bunny
 execute as @e[type=zombie_horse,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/zombie_horse
