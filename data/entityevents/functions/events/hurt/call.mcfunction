@@ -1,4 +1,4 @@
-execute as @e[type=#entityevents:mob,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/general
+execute as @e[type=#entityevents:mobs,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/general
 execute as @e[type=cow,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/cow
 execute as @e[type=squid,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/squid
 execute as @e[type=bat,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/bat
@@ -31,7 +31,7 @@ execute as @e[type=cave_spider,nbt={HurtTime:10s}] at @s run function #entityeve
 execute as @e[type=enderman,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/enderman
 execute as @e[type=spider,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/spider
 execute as @e[type=zombie_pigman,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/zombie_pigman
-execute as @e[type=balze,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/balze
+execute as @e[type=blaze,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/balze
 execute as @e[type=creeper,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/creeper
 execute as @e[type=drowned,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/drowned
 execute as @e[type=elder_guardian,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/elder_guardian
@@ -62,5 +62,4 @@ execute as @e[type=ender_dragon,nbt={HurtTime:10s}] at @s run function #entityev
 execute as @e[type=wither,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/wither
 execute as @e[type=giant,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/giant
 execute as @e[type=illusioner,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/illusioner
-execute as @e[type=killer_bunny,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/killer_bunny
 execute as @e[type=zombie_horse,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/zombie_horse
