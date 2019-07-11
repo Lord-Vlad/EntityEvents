@@ -31,7 +31,7 @@ execute as @e[type=cave_spider,nbt={HurtTime:10s}] at @s run function #entityeve
 execute as @e[type=enderman,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/enderman
 execute as @e[type=spider,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/spider
 execute as @e[type=zombie_pigman,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/zombie_pigman
-execute as @e[type=balze,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/balze
+execute as @e[type=blaze,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/balze
 execute as @e[type=creeper,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/creeper
 execute as @e[type=drowned,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/drowned
 execute as @e[type=elder_guardian,nbt={HurtTime:10s}] at @s run function #entityevents:events/hurt/elder_guardian
