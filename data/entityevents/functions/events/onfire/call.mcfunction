@@ -31,7 +31,7 @@ execute as @e[type=cave_spider,scores={EEonFire=0..}] at @s run function #entity
 execute as @e[type=enderman,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/enderman
 execute as @e[type=spider,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/spider
 execute as @e[type=zombie_pigman,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/zombie_pigman
-execute as @e[type=blaze,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/balze
+execute as @e[type=blaze,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/blaze
 execute as @e[type=creeper,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/creeper
 execute as @e[type=drowned,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/drowned
 execute as @e[type=elder_guardian,scores={EEonFire=0..}] at @s run function #entityevents:events/onfire/elder_guardian

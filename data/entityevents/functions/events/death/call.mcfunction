@@ -31,7 +31,7 @@ execute as @e[type=item,nbt={Item:{tag:{cave_spider:1b}}}] at @s run function #e
 execute as @e[type=item,nbt={Item:{tag:{enderman:1b}}}] at @s run function #entityevents:events/death/enderman
 execute as @e[type=item,nbt={Item:{tag:{spider:1b}}}] at @s run function #entityevents:events/death/spider
 execute as @e[type=item,nbt={Item:{tag:{zombie_pigman:1b}}}] at @s run function #entityevents:events/death/zombie_pigman
-execute as @e[type=item,nbt={Item:{tag:{balze:1b}}}] at @s run function #entityevents:events/death/balze
+execute as @e[type=item,nbt={Item:{tag:{balze:1b}}}] at @s run function #entityevents:events/death/blaze
 execute as @e[type=item,nbt={Item:{tag:{creeper:1b}}}] at @s run function #entityevents:events/death/creeper
 execute as @e[type=item,nbt={Item:{tag:{drowned:1b}}}] at @s run function #entityevents:events/death/drowned
 execute as @e[type=item,nbt={Item:{tag:{elder_guardian:1b}}}] at @s run function #entityevents:events/death/elder_guardian
